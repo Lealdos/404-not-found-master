@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://404-not-found-master-sepia.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Lealdos/404-not-found-master/blob/main/src/styles/index.css">
       Solution
     </a>
     <span> | </span>
@@ -70,5 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/Lealdos})
-- Linkind [@your-twitter](https://www.linkedin.com/in/jleonardod/)
+- GitHub [@lealdos](https://{github.com/Lealdos})
+- Linkind [@jose leonardo Delgado](https://www.linkedin.com/in/jleonardod/)
