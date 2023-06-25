@@ -32,12 +32,16 @@ h1 {
   align-items: center;
 }
 
-#sparrow {
+.sparrow {
   width: 286.83px;
   height: 238px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #fff;
+  animation: sparrow 0.7s infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: sparrow;
+  animation-name: sparrow;
 }
 
 .page_not_found_message h2 {
@@ -50,7 +54,6 @@ h1 {
   font-weight: 700;
   letter-spacing: -1.68px;
   margin-bottom: 30px;
-  
 }
 
 .page_not_found_message p {
@@ -64,7 +67,7 @@ h1 {
 }
 
 button {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Space Mono", sans-serif;
@@ -97,12 +100,23 @@ A {
   text-decoration: none;
 }
 
-button :active{
+button :visited {
   color: #fff;
 }
 
+
+@keyframes sparrow {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+}
+
 @media screen and (min-width: 768px) {
-  #sparrow {
+  .sparrow {
     width: 539.224px;
     height: 447.426px;
     flex-shrink: 0;
@@ -126,6 +140,5 @@ button :active{
     width: 381px;
     font-size: 24px;
     letter-spacing: -0.84px;
-
   }
 }
