@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@100&family=Space+Mono:wght@400;700&display=swap");
+
+html {
+  margin: 20px 24px;
+}
+
+h1 {
+  color: #333;
+  width: 133px;
+  height: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 100px;
+  size: 24px;
+  line-height: 25.18px;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+.page_not_found_message {
+  border-radius: 8px;
+  background: #fff;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+}
+
+#sparrow {
+  width: 286.83px;
+  height: 238px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.page_not_found_message h2 {
+  width: 350px;
+  flex-shrink: 0;
+  flex-direction: column;
+  color: var(--gray-1, #333);
+  font-size: 48px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  letter-spacing: -1.68px;
+  margin-bottom: 30px;
+}
+
+.page_not_found_message p {
+  flex-shrink: 0;
+  color: var(--gray-2, #4f4f4f);
+  width: 328px;
+  font-size: 18px;
+  font-family: "Space Mono", sans-serif;
+  letter-spacing: -0.63px;
+  margin-bottom: 33px;
+}
+
+button {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Mono", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  text-transform: uppercase;
+  width: 216px;
+  height: 68px;
+  flex-shrink: 0;
+  background: var(--gray-1, #333);
+  color: #fff;
+  margin-top: 33px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #888888;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 114px;
+}
+
+A {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  #sparrow {
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+  }
+
+  .message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .page_not_found_message h2 {
+    width: 586px;
+    font-size: 64px;
+    flex-shrink: 0;
+  }
+
+  .page_not_found_message p {
+    width: 381px;
+    font-size: 24px;
+    letter-spacing: -0.84px;
+
+  }
+}
