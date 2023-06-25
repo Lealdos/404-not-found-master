@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Lealdos/404-not-found-master/blob/main/src/styles/index.css">
+    <a href="https://github.com/Lealdos/404-not-found-master">
       Solution
     </a>
     <span> | </span>
@@ -70,5 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@lealdos](https://{github.com/Lealdos})
+- GitHub [@lealdos](https://github.com/Lealdos)
 - Linkind [@jose leonardo Delgado](https://www.linkedin.com/in/jleonardod/)

@@ -97,7 +97,7 @@ A {
   text-decoration: none;
 }
 
-button :visited{
+button :active{
   color: #fff;
 }
 
