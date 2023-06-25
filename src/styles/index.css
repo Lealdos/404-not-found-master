@@ -30,7 +30,6 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: start;
 }
 
 #sparrow {
@@ -51,6 +50,7 @@ h1 {
   font-weight: 700;
   letter-spacing: -1.68px;
   margin-bottom: 30px;
+  
 }
 
 .page_not_found_message p {
@@ -108,9 +108,11 @@ A {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .page_not_found_message h2 {
+    display: flex;
     width: 586px;
     font-size: 64px;
     flex-shrink: 0;
